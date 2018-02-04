@@ -1,0 +1,72 @@
+@import "../../colors";
+
+#pairSelection {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  border: 1px solid $borderColor;
+
+  .title {
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .scrollableTable {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  table.marketBox {
+    width: 100%;
+    font-family: "Roboto", arial, sans-serif;
+    padding: 3px 10px;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+
+    thead {
+      padding-bottom: 7px;
+      box-shadow: 0 1px $borderColor;
+
+      tr {
+        th {
+          font-size: 13px;
+          text-align: left;
+
+          &:last-child {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    tbody {
+      font-size: 12px;
+
+      tr {
+        cursor: pointer;
+        &:hover {
+          background-color: $lightBorderColor;
+        }
+        td {
+          min-width: 50px;
+
+          .positive {
+            color: green;
+          }
+          .negative {
+            color: red;
+          }
+          &:first-child {
+            min-width: 40px;
+          }
+          &:last-child {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+  }
+}

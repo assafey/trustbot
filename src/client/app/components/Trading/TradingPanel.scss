@@ -1,0 +1,57 @@
+@import "../../colors";
+
+.tradingPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 275px;
+  min-width: 255px;
+
+  .title {
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  table.detailsBox {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 13px;
+    border-spacing: 7px 5px
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 10px;
+
+    button.tradeButton {
+      border: 1px solid $borderColor;
+      height: 40px;
+      flex: 0 0 auto;
+      margin-top: 15px;
+    }
+
+    .tradingPercentSelection {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+
+      li {
+        button {
+          height: 20px;
+          font-size: 11px;
+          border: 1px solid $borderColor;
+          width: 45px;
+        }
+      }
+    }
+
+  }
+
+}

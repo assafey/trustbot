@@ -1,0 +1,39 @@
+@import "../../colors";
+
+#exchange {
+  display: flex;
+  flex: 1 1 auto;
+
+  .container {
+    display: flex;
+    margin: 20px;
+    padding: 0;
+    flex-direction: column;
+    flex: 1 1 auto;
+
+    .twoSides {
+      display: flex;
+      flex-direction: row;
+      max-height: 409px;
+
+      .left {
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        margin-right: 20px;
+
+        .candlesGraph {
+          height: 350px;
+        }
+
+      }
+
+      .right {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+      }
+    }
+  }
+
+}

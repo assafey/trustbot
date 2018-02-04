@@ -1,0 +1,98 @@
+@import "../../colors";
+
+#orders {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin-top: 20px;
+
+  .title {
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .scrollableTable {
+    height: 190px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .ordersBox {
+    display: flex;
+    flex: 1 1 auto;
+    border: 1px solid $borderColor;
+    flex-direction: column;
+  }
+
+  .marketBoxHeader {
+    border-bottom: 1px solid $borderColor;
+    background-color: $lightBackgroundColor;
+  }
+
+  table.marketBox {
+    width: 100%;
+    font-family: "Roboto", arial, sans-serif;
+    padding: 3px 10px;
+    border-collapse: separate;
+    border-spacing: 0 3px;
+
+    thead {
+      padding-bottom: 7px;
+
+      tr {
+        th {
+          font-size: 13px;
+          text-align: left;
+
+          &:last-child {
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    tbody {
+      font-size: 12px;
+      border-top: none;
+
+      tr {
+        cursor: pointer;
+        &:hover {
+          background-color: $lightBorderColor;
+        }
+        td {
+          min-width: 50px;
+
+          .positive {
+            color: green;
+          }
+          .negative {
+            color: red;
+          }
+          &:first-child {
+            min-width: 40px;
+            max-width: 110px;
+          }
+          &:last-child {
+            text-align: right;
+            display: flex;
+            justify-content: flex-end;
+          }
+        }
+      }
+    }
+
+    .cancelOrderButton {
+      font-size: 12px;
+      height: 20px;
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      &:hover {
+        color: $lightTextColor;
+      }
+    }
+
+  }
+}

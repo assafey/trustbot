@@ -1,0 +1,168 @@
+@import "./colors";
+@import "./fonts";
+
+html, body {
+  margin: 0;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.logo {
+  background-image: url('../public/images/trustbot.jpg');
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid $borderColor;
+  box-shadow: 5px 5px 10px $shadowColor;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  &.narrow {
+    margin-bottom: 0px;
+  }
+}
+
+.text {
+  color: $textColor;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+}
+
+.light-text {
+  color: $lightTextColor;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+}
+
+textarea.textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  border: 1px solid $borderColor;
+  border-radius: 3px;
+  overflow: auto;
+  outline: none;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 10px;
+  line-height: 1.4;
+
+  &:hover {
+    border: 1px solid $hoverBorderColor;
+  }
+}
+
+a.link {
+  color: $lightTextColor;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+  &:hover {
+    color: $textColor;
+  }
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+input.input {
+  display: flex;
+  flex: 1 1 auto;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+  color: $textColor;
+  outline: none;
+  border: none;
+  min-height: 34px;
+  border-bottom: 1px solid $borderColor;
+  transition: border-bottom 0.5s;
+
+  &:hover {
+    border-bottom: 1px solid $hoverBorderColor;
+  }
+
+  &:not(:first-child) {
+    margin-left: 20px;
+  }
+
+}
+
+input[type='checkbox'] {
+  cursor: pointer;
+}
+
+button {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+  height: 40px;
+  position: relative;
+
+  &.info {
+    color: white;
+    background-color: #62bcfa;
+    border-radius: 4px;
+    &:hover {
+      background-color: #55abfa;
+    }
+  }
+
+}
+
+.backgroundImage {
+  background: url('https://static.pexels.com/photos/6416/apple-desk-office-technology.jpg') no-repeat;
+  background-size: cover;
+}

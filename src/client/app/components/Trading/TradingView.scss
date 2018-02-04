@@ -1,0 +1,48 @@
+@import "../../colors";
+
+#tradingView {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  flex: 1 1 auto;
+  position: relative;
+  background-color: $lightBackgroundColor;
+  border: 1px solid $borderColor;
+  padding: 15px;
+
+  .tradingHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .tradingTitle {
+      font-family: "Roboto", arial, sans-serif;
+      font-size: 18px;
+
+      .exchangeName {
+        color: $lightTextColor;
+        font-size: 12px;
+      }
+    }
+
+    .balanceView {
+      font-family: "Roboto", arial, sans-serif;
+      font-size: 14px;
+      color: $lightTextColor;
+    }
+  }
+
+  .panelsContainer {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    align-items: center;
+
+    .separator {
+      width: 1px;
+      background-color: $borderColor;
+      height: 200px;
+    }
+  }
+
+}

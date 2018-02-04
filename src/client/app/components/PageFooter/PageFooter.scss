@@ -1,0 +1,21 @@
+@import "../../colors";
+
+#pageFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  border-top: 1px solid $borderColor;
+
+  .all-rights {
+    padding-left: 20px;
+  }
+
+  ul {
+    a {
+      min-width: 95px;
+      font-size: 14px;
+    }
+  }
+
+}
