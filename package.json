@@ -1,8 +1,8 @@
 {
-  "name": "crypto-bot-trader",
+  "name": "trustbot",
   "version": "1.0.0",
   "description": "Crypto Bot Trader",
-  "main": "index.js",
+  "main": "devServer.js",
   "dependencies": {
     "authenticator": "^1.1.3",
     "babel-core": "^6.26.0",
@@ -46,9 +46,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://assafgrimberg@bitbucket.org/assafgrimberg/crypto-bot-trader.git"
+    "url": "git+https://github.com/assafey/trustbot.git"
   },
+  "keywords": [
+    "crypto",
+    "bot",
+    "trade",
+    "binance",
+    "poloniex"
+  ],
   "author": "Assaf Grimberg",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/assafgrimberg/crypto-bot-trader#readme"
+  "bugs": {
+    "url": "https://github.com/assafey/trustbot/issues"
+  },
+  "homepage": "https://github.com/assafey/trustbot#readme"
 }
+
+
