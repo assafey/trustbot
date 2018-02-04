@@ -1,4 +1,4 @@
-TrustBot - Crypto Trader Bot
+###TrustBot - Crypto Trader Bot
 
 Work in progress
 
