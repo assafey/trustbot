@@ -1,8 +1,8 @@
-###TrustBot - Crypto Trader Bot
+### TrustBot - Crypto Trader Bot
 
 Easy way to manage multiple exchanges in one place for free :)
 
-#####Features:
+##### Features:
 * Support exchanges: Poloniex, Binance (Bittrex soon)
 * Stop-loss, Trailing take-profit
 * Orders management
@@ -10,7 +10,7 @@ Easy way to manage multiple exchanges in one place for free :)
 * UI to manage all in one place
 * and more ...
 
-####Work still in progress
+#### Work still in progress
 
 Your motivation will boost me up :)<br/><br/>
 BTC: <br/>18wj7QWdFCXsoGpuTutX5VE2iGG145R5p4<br/>
