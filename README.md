@@ -12,6 +12,8 @@ Easy way to manage multiple exchanges in one place for free :)
 
 #### Work still in progress
 
+![TrustBot](./trustbot.png)
+
 Your motivation will boost me up :)
 
 BTC: <br/>18wj7QWdFCXsoGpuTutX5VE2iGG145R5p4<br/>
