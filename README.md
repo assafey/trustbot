@@ -4,7 +4,7 @@ Easy way to manage multiple exchanges in one place for free :)
 
 ##### Features:
 * Support exchanges: Poloniex, Binance (Bittrex soon)
-* Stop-loss, Trailing take-profit
+* Stop-loss, Trailing take-profit, Double buy loss recovery
 * Orders management
 * View of all current holdings/balances
 * UI to manage all in one place
